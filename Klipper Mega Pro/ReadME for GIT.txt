@@ -24,6 +24,13 @@ axes_map: x,y,z
 accel_chip: adxl345
 accel_per_hz: 70 probe_points: 117.5,117.5,10
 In the "boardenv.txt" of the Pi on the SD found in the /boot folder of the BTT Pi, you need to uncomment only "overlays=spidev0_0"
+BTT PI Cable to Generic ADXL345
+Black GND
+Red VCC
+Yellow CS
+White SDO
+Blue SDA
+Green SCL
 
 #Updated CFG
 This config is basic but currently includes Start print, end print and cancel print macro's 
