@@ -13,6 +13,15 @@ printer.cfg changes:
 - accel_per_hz: 70 probe_points: 117.5,117.5,10
   <br/>
 In the "boardenv.txt" of the Pi on the SD found in the /boot folder of the BTT Pi, you need to uncomment only "overlays=spidev0_0"
+<br/>
+BTT PI Cable to ADXL345:
+
+- Black GND
+- Red VCC
+- Yellow CS
+- White SDO
+- Blue SDA
+- Green SCL
 
 # Updated CFG
 This config is basic but currently includes the  Start print, end print and cancel print macro's. 
